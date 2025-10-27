@@ -128,9 +128,9 @@ def main():
 
     ok = seq.run()
     if ok:
-        print('Start sequence completed successfully')
+        print('Flight sequence completed successfully')
     else:
-        print('Start sequence failed')
+        print('Flight sequence failed')
 
 
 if __name__ == '__main__':

@@ -18,7 +18,20 @@ Aby zainstalować zależności należy wpisać
 uv sync
 ```
 
-### Uruchomienie programu
+### Uruchomienie programu graficznego
+Do wizualizacji i łatwiejszej automatyzacji procesu dodałem możliwość włączenia symulacji z poziomu
+przeglądarki. Jedyne co należy wpisać to
+
+```bash
+uv run python gui.py
+```
+lub wcześniej aktywując środowisko wirtualne
+```bash
+python gui.py
+```
+Niestety, z powodu braku czasu nie udało mi się zrobić w pełni wizualizacji danych z lotu
+
+### Uruchomienie programu konsolowego
 
 Najpierw należy uruchomić serwer proxy komendą
 ```bash
