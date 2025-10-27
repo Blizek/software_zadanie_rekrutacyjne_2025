@@ -24,18 +24,21 @@ Najpierw należy uruchomić serwer proxy komendą
 ```bash
 uv run python tcp_proxy.py
 ```
-oraz symulacje
+symulacje
 ```bash
 uv run python tcp_simulator.py
+```
+
+oraz procedurę startu i lądowania
+```bash
+uv run python flight_sequences.py
 ```
 
 Alternatywnie można wcześniej aktywować wirtualne środowisko komendą zwróconą przez `uv venv` i wtedy wpisać
 ```bash
 python tcp_proxy.py
-```
-oraz
-```bash
 python tcp_simulation.py
+python flight_sequences.py
 ```
 
 
